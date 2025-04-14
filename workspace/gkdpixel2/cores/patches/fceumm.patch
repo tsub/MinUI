@@ -7,7 +7,7 @@ index 0cd567cf174249e92a43c4c78be582ba4c36a57c..2597db6a4fe1a1c4a4a9dd5e42de37f5
  	EXTERNAL_ZLIB = 1
  
 +# RGB30
-+else ifeq ($(platform), magicmini)
++else ifeq ($(platform), gkdpixel2)
 +	TARGET := $(TARGET_NAME)_libretro.so
 +	CC = $(CROSS_COMPILE)gcc
 +	CXX = $(CROSS_COMPILE)g++

@@ -7,7 +7,7 @@ index 5b54403d915e46cb0df8f428355665fbe26e05b4..f72733d9689aa78795ce8b9d777b0ab9
     CFLAGS += -std=gnu11
  
 +# RGB30
-+else ifeq ($(platform), magicmini)
++else ifeq ($(platform), gkdpixel2)
 +   TARGET := $(TARGET_NAME)_libretro.so
 +   CC = $(CROSS_COMPILE)gcc
 +   CXX = $(CROSS_COMPILE)g++

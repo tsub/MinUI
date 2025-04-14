@@ -7,7 +7,7 @@ index 9cab7e4bd79fe03fde4aa7448c1d29c84f7b8eba..ec039524e9d14037640c9a5cb569c61a
     DEFINES += -std=c99
  
 +# RGB30
-+else ifeq ($(platform), magicmini)
++else ifeq ($(platform), gkdpixel2)
 +   TARGET := $(TARGET_NAME)_libretro.so
 +   fpic := -fPIC
 +   SHARED := -shared -Wl,-version-script=link.T

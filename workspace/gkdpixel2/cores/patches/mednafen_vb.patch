@@ -7,7 +7,7 @@ index 56395207d969b61b52328ea62cea75ff3eb5195d..3765e9be6350f307ea4a24ef6c3201f6
     STATIC_LINKING = 1
  
 +# RGB30
-+else ifeq ($(platform), magicmini)
++else ifeq ($(platform), gkdpixel2)
 +   TARGET := $(TARGET_NAME)_libretro.so
 +   CC = $(CROSS_COMPILE)gcc
 +   CXX = $(CROSS_COMPILE)g++

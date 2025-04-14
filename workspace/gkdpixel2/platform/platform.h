@@ -1,4 +1,4 @@
-// magicmini/platform/platform.h
+// gkdpixel2/platform/platform.h
 
 #ifndef PLATFORM_H
 #define PLATFORM_H

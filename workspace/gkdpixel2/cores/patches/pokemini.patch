@@ -7,7 +7,7 @@ index af8cc75cf1a998791a071e8cff915fb8c97ffcc9..e2a4e8cdd951f71f9ebfdb2cf53a21d1
  	CFLAGS += -DDINGUX -DRS90
  
 +# RGB30
-+else ifeq ($(platform), magicmini)
++else ifeq ($(platform), gkdpixel2)
 +	TARGET := $(TARGET_NAME)_libretro.so
 +    CC = $(CROSS_COMPILE)gcc
 +    CXX = $(CROSS_COMPILE)g++

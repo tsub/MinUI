@@ -1,4 +1,4 @@
-// magicmini
+// gkdpixel2
 #include <stdio.h>
 #include <stdlib.h>
 #include <linux/fb.h>

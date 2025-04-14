@@ -7,7 +7,7 @@ index 07d5368a8e78a020813732239ec369d83e931ede..a1f7fefd144c9d0ead913fad350e660c
  	FLAGS += -DFAST_ALIGNED_LSB_WORD_ACCESS -fno-unroll-loops
  
 +# RGB30
-+else ifeq ($(platform), magicmini)
++else ifeq ($(platform), gkdpixel2)
 +	TARGET := $(TARGET_NAME)_libretro.so
 +	CC  = $(CROSS_COMPILE)gcc
 +   	CXX = $(CROSS_COMPILE)g++

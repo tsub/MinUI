@@ -3,7 +3,7 @@
 # SYSTEM/usr/bin/autostart.sh
 
 SDCARD_PATH=/storage/TF2
-SYSTEM_FRAG=/.system/magicmini
+SYSTEM_FRAG=/.system/gkdpixel2
 UPDATE_FRAG=/MinUI.zip
 SYSTEM_PATH=${SDCARD_PATH}${SYSTEM_FRAG}
 UPDATE_PATH=${SDCARD_PATH}${UPDATE_FRAG}
