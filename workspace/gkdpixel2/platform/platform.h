@@ -112,7 +112,7 @@
 
 ///////////////////////////////
 
-#define SDCARD_PATH "/storage/TF2"
+#define SDCARD_PATH "/storage/roms/minui"
 #define MUTE_VOLUME_RAW 0
 #define HAS_NEON
 #define SAMPLES 400 // fix for (most) fceumm underruns, not super helpful here
