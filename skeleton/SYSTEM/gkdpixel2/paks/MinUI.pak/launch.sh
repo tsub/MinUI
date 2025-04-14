@@ -3,7 +3,7 @@
 # dmesg > /storage/TF1/dmesg.txt
 
 export PLATFORM="gkdpixel2"
-export SDCARD_PATH="/storage/TF2"
+export SDCARD_PATH="/storage/roms/minui"
 export BIOS_PATH="$SDCARD_PATH/Bios"
 export SAVES_PATH="$SDCARD_PATH/Saves"
 export SYSTEM_PATH="$SDCARD_PATH/.system/$PLATFORM"

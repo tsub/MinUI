@@ -11,7 +11,7 @@ endif
 endif
 
 ifeq (,$(PLATFORMS))
-PLATFORMS = miyoomini trimuismart rg35xx rg35xxplus my355 tg5040 zero28 rgb30 m17 gkdpixel my282 magicmini
+PLATFORMS = gkdpixel2
 endif
 
 ###########################################################
@@ -116,9 +116,11 @@ special:
 	mv ./build/BOOT/miyoo ./build/BASE/
 	mv ./build/BOOT/trimui ./build/BASE/
 	mv ./build/BOOT/magicx ./build/BASE/
+	mv ./build/BOOT/gkdpixel2 ./build/BASE/
 	cp -R ./build/BOOT/.tmp_update ./build/BASE/miyoo/app/
 	cp -R ./build/BOOT/.tmp_update ./build/BASE/trimui/app/
 	cp -R ./build/BOOT/.tmp_update ./build/BASE/magicx/
+	cp -R ./build/BOOT/.tmp_update ./build/BASE/gkdpixel2/
 	cp -R ./build/BASE/miyoo ./build/BASE/miyoo354
 	cp -R ./build/BASE/miyoo ./build/BASE/miyoo355
 ifneq (,$(findstring my355, $(PLATFORMS)))

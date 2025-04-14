@@ -2,7 +2,7 @@
 
 # SYSTEM/usr/bin/autostart.sh
 
-SDCARD_PATH=/storage/TF2
+SDCARD_PATH=/storage/roms/minui
 SYSTEM_FRAG=/.system/gkdpixel2
 UPDATE_FRAG=/MinUI.zip
 SYSTEM_PATH=${SDCARD_PATH}${SYSTEM_FRAG}
