@@ -795,7 +795,7 @@ int PLAT_pickSampleRate(int requested, int max) {
 }
 
 char* PLAT_getModel(void) {
-	return "MagicX XU Mini M";
+	return "GKD Pixel 2";
 }
 
 int PLAT_isOnline(void) {

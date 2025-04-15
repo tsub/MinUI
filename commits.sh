@@ -88,6 +88,9 @@ bump() {
 	
 	tell GKDPIXEL
 	cores gkdpixel
+
+	tell GKDPIXEL2
+	cores gkdpixel2
 	
 	tell MY282
 	show ./workspace/my282/other/unzip60
