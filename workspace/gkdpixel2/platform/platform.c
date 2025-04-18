@@ -741,7 +741,6 @@ void PLAT_enableBacklight(int enable) {
 	}
 	else {
 		SetRawBrightness(0);
-		system("dd if=/dev/zero of=/dev/fb0"); // does nothing...
 		putInt(BACKLIGHT_PATH, FB_BLANK_POWERDOWN);
 	}
 }
